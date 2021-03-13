@@ -12,13 +12,13 @@ fetch('./data.json')
             ide.innerHTML= "id :" + data.id;
             div_data.appendChild(ide);
             let desc = document.createElement("p");
-            desc.innerHTML= "desc :" + data.description;
+            desc.innerHTML= "descripción :" + data.description;
             div_data.appendChild(desc);7
             let cant = document.createElement("p");
-            cant.innerHTML= "cant :" + data.amount;
+            cant.innerHTML= "cantidad :" + data.amount;
             div_data.appendChild(cant);
             let sta = document.createElement("p");
-            sta.innerHTML= "sta :" + data.status;
+            sta.innerHTML= "status :" + data.status;
             div_data.appendChild(sta);
             let hr = document.createElement("hr");
             div_data.appendChild(hr)
