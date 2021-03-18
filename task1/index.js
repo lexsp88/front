@@ -1,11 +1,18 @@
-const inicio = [0,4,5,8,10,11,12,12,14,15];
-const sortedArray = [11,12,12,14,15,0,4,5,8,10];
+const sortedArray = [8,9,10,1,2,3,4,5,6,7];
 
 function findshifted(){
-    let b = inicio[0];
+    const Arr = [];
+
+    for (i = 0; i<sortedArray.length; i++){
+        Arr[i] = sortedArray[i]
+    }
+
+    const a = Arr.sort();
+    const b = a[0];
     const n = sortedArray.indexOf(b);
 
-    console.log(n);
+    console.log(n)
+    
 }
 
 findshifted(sortedArray);
